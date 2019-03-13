@@ -1,9 +1,34 @@
 div {
-	width: 50%;
-	height: 50%;
+	width: 40%;
+	height: 40%;
 	background-color: rgba(100, 255, 100, 0.6);
 	margin: auto;
 	border-radius: 200px;
-	margin-top: 10%;
+	margin-top: 5%;
 	box-shadow: 5px 10px 20px 20px #c1c1c1;
+	text-align: center;
+	line-height: 250px;
+	color: white;
+	font-family: verdana;
+	font-size: 50px;
+}
+
+p {
+	display: block;
+	text-align: center;
+	font-size: 45px;
+	font-family: verdana;
+}
+
+h1 {
+	text-align: center;
+	font-size: 55px;
+	font-family: verdana;
+}
+
+button {
+	padding: 5px;
+	margin-left: 49%;
+	background-color: yellow;
+	border-radius: 20px;
 }
