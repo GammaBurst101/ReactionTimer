@@ -4,6 +4,7 @@ var endResponseTime;
 var active = false;
 var actionTime = Math.floor((Math.random() * 5) + 1);
 var timeInMilis = actionTime * 1000;
+var p = document.getElementById("inDiv");
 
 setTimeout(changeColor, timeInMilis);
 
@@ -20,6 +21,8 @@ div.onclick = function () {
 		
 		div.innerHTML = responseTime + 'ms';
 		active = false;
+	} else {
+		location.reload();
 	}
 }
 
