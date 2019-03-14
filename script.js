@@ -25,7 +25,3 @@ div.onclick = function () {
 		location.reload();
 	}
 }
-
-function reload() {
-	location.reload();
-}
